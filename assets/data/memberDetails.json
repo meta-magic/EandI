@@ -1,0 +1,17 @@
+{
+    "Command": "Search E&I",
+    "Data": [
+      {
+        "firstName": "LILA",
+        "lastName": "MILLER",
+        "DOB": "01/30/1960",
+        "address": "5414 POPLAR LAKES LANE",
+        "planName": "Choice Plus",
+        "policyNumber": "00F7723",
+        "effectiveDate": "04/01/2019"
+      }
+    ],
+    "Success": "OK",
+    "SuccessMessage": "this record is correct",
+    "ErrorMessage": "There is no error"
+  }
