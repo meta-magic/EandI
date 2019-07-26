@@ -1,0 +1,20 @@
+{
+  "Command": "Find Originator E&I",
+  "Data": [
+    {
+      "Last name": "MILLER",
+      "First Name": "BRUCE",
+      "DOB": "03/03/1955",
+      "Relationship": "SUBSCRIBER/RECIPIENT"
+    },
+    {
+      "Last name": "MILLER",
+      "First Name": "LILA",
+      "DOB": "01/30/1960",
+      "Relationship": "SPOUSE/DOMESTIC PARTNER"
+    }
+  ],
+  "Success": "OK",
+  "SuccessMessage": "this record is correct",
+  "ErrorMessage": "There is no error"
+}
