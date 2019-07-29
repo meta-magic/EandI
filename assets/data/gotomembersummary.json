@@ -1,6 +1,16 @@
 {
-  "Command": "Search E&I",
-  "Data": [
+  "Data": {
+    "ResponseMetaData": {
+      "Command": "Go To Member E&I",
+      "requestId": "a8f7fe52-b1c1-11e9-a2a3-2a2ae2dbcce4",
+      "responseTime": "1564385069691",
+      "commandSeqId": 1,
+      "totalResponsesAvailable": 2,
+      "responseSequenceId": 1,
+      "responseSanitizationRequired": true,
+      "completed": false
+    },
+    "ResponseData":  [
     {
       "First name": "BRUCE",
       "Last Name": "MILLER",
@@ -11,7 +21,10 @@
       "Effective Date": "04/01/2019"
     }
   ],
-  "Success": "OK",
-  "SuccessMessage": "this record is correct",
-  "ErrorMessage": "There is no error"
+    "ResponseStatus": {
+      "success": true,
+      "statusCode": 200,
+      "statusMessage": "Message can be Success or Failure"
+    }
+  }
 }

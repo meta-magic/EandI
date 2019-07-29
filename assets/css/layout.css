@@ -145,7 +145,7 @@ center-right > amexio-card > div > .card-body{
 }
 
 
-.previous{
+/* .previous{
   position: absolute;
   left: 0px;
   top: 42%;
@@ -157,7 +157,7 @@ center-right > amexio-card > div > .card-body{
   right: 0px;
   top: 42%;
   margin: 0px -10px;
-}
+} */
 
 .product-panel{
   display: block; 
