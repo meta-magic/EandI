@@ -1,7 +1,7 @@
 {
   "Data": {
     "ResponseMetaData": {
-      "Command": "Subject Is Originator E&I",
+      "Command": "Subject Is Originator EandI",
       "requestId": "a8f7fe52-b1c1-11e9-a2a3-2a2ae2dbcce4",
       "responseTime": "1564385069691",
       "commandSeqId": 2,
@@ -13,16 +13,8 @@
     "ResponseData": [
       {
         "Service Dates": "05/13/2019 - 05/13/2019",
-        "Rejection Code": [
-          "OV",
-          "70",
-          "69VW"
-        ],
-        "Reason for Rejection": [
-          "OVERPAYMENT",
-          "ACCOUNTING ADJUSTMENTS: THE ERROR ASSOCIATED WITH 69 HAS BEEN CORRECTED. (EXCLUDED FROM TIME-TO-PAY)",
-          "ACCOUNTING ADJUSTMENTS: THERE IS AN ERROR. (EXCLUDED FROM TIME-TO-PAY)"
-        ],
+        "Rejection Code": "+OV +70 +69,VW ",
+        "Reason for Rejection": "+OVERPAYMENT+ACCOUNTING ADJUSTMENTS: THE ERROR ASSOCIATED WITH 69 HAS BEEN CORRECTED. (EXCLUDED FROM TIME-TO-PAY)+ACCOUNTING ADJUSTMENTS: THERE IS AN ERROR. (EXCLUDED FROM TIME-TO-PAY)",
         "Claim No": "7807383042-01",
         "Provider Name": "BODIN, TYLER R",
         "Status": "Rejected",
@@ -30,18 +22,8 @@
       },
       {
         "Service Dates": "04/05/2019 - 04/05/2019",
-        "Rejection Code": [
-          "44",
-          "44",
-          "44",
-          "FD,44"
-        ],
-        "Reason for Rejection": [
-          "AT/T ELIGIBILITY - AUTO ASSIGNED",
-          "AT/T ELIGIBILITY - AUTO ASSIGNED",
-          "AT/T ELIGIBILITY - AUTO ASSIGNED",
-          "AT/T ELIGIBILITY - AUTO ASSIGNED"
-        ],
+        "Rejection Code": "+44 +44 +44 +FD,44 ",
+        "Reason for Rejection": "+AT/T ELIGIBILITY - AUTO ASSIGNED+AT/T ELIGIBILITY - AUTO ASSIGNED+AT/T ELIGIBILITY - AUTO ASSIGNED+AT/T ELIGIBILITY - AUTO ASSIGNED",
         "Claim No": "8627425096-01",
         "Provider Name": "CUTTING EDGE PHYSICAL THERAPY",
         "Status": "Rejected",
