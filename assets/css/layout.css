@@ -3,47 +3,7 @@
 .input-box-checkbox-label{
   background-color: var(--componentBGColor);
 }
-.card-container{
-  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 10px 0 rgba(0, 0, 0, 0.10);
-}
-/* 
-.card-container{
-  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 10px 0 rgba(0, 0, 0, 0.10);
-}
-  
-center-left > amexio-card > div > .card-body{
-  padding: 0px !important;
-}
-
-
-center-middle > amexio-card > div > .card-body{
-  padding: 0px !important;
-}
-
-center-right > amexio-card > div > .card-body{
-  padding: 0px !important;
-}
-
-company-logo .floatingbutton-circle{
-  padding: 15px;
-}
-
-customer-demo-graphic .card-body{
-  padding: 0px !important;
-  padding-left: 5px !important;
-}
-
-customer-demo-graphic .field-name-align{
-  padding: 0px;
-  vertical-align: top;
-  word-break: break-word;
-}
  
-amexio-grid-item {
-  padding: 0px !important; 
-  position: relative; 
-} */
-
 amexio-grid-item {
   padding: 2px !important; 
   position: relative; 
@@ -99,14 +59,9 @@ center-right > amexio-card > div > .card-body{
 company-logo .floatingbutton-circle{
   padding: 15px;
 }
-
-customer-demo-graphic .card-body{
-  padding: 0px !important;
-  padding-left: 5px !important;
-}
-
+ 
 customer-demo-graphic .field-name-align{
-  padding: 0px;
+  
   vertical-align: top;
   word-break: break-word;
 }
@@ -143,21 +98,7 @@ center-right > amexio-card > div > .card-body{
   right:15px; 
   cursor: pointer;
 }
-
-
-/* .previous{
-  position: absolute;
-  left: 0px;
-  top: 42%;
-  margin: 0px -10px;
-}
-
-.next{
-  position: absolute;
-  right: 0px;
-  top: 42%;
-  margin: 0px -10px;
-} */
+ 
 
 .product-panel{
   display: block; 
@@ -204,3 +145,21 @@ base-tab-component  > amexio-layout-columns > amexio-layout-item{
   background-color : unset !important;
 }
 
+.tablink{
+  padding: 5px;
+}
+
+.activebgcolortab{
+  background-color: var(--componentHeaderBGColor)
+}
+
+checkbox .input-box-container{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+
+.datatable, .datatable-height{
+  box-shadow: unset;
+}
+ 
